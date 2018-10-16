@@ -29,13 +29,13 @@ body {
 /* Custom Button Styles */
 
 .btn1 {
-    float: left;
+    /* float: left;
     position: relative;
-    top: 0;
+    top: 0; */
     cursor: pointer;
     background: white;
-    border-radius: 1px;
-    margin: 0 7px 11px 0;
+    border:none;
+    margin: auto;
     text-align: center;
     user-select: none;
     transition: all 0.2s ease;
@@ -198,7 +198,7 @@ hr.small {
 /* Header */
 
 .header {
-    display: table;
+    /* display: table; */
     position: relative;
     background: url(../img/background.png);
     background-size: auto;
@@ -221,7 +221,7 @@ hr.small {
 
 .services {
     padding: 50px 0 130px 0;
-    position: relative;
+    /* position: relative; */
 }
 
 .service-item {
@@ -280,6 +280,17 @@ hr.small {
     .map {
         height: 75%;
     }
+    h3 {
+        font-size: 5rem;
+    }
+    p {
+        font-size: 20px;
+    }
+    .social-m {
+        height: 54px;
+        width: 54px;
+        font-size: 42px;
+    }
 }
 
 .map iframe {
@@ -307,11 +318,25 @@ footer {
     top: 0;
     left: 0;
     border: 24px solid #2c64ff;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@media(min-width:768px) {
+    h3 {
+        font-size: 12rem;
+    }
+    p {
+        font-size: 24px;
+    }
+    .social-m {
+        height: 94px;
+        width: 94px;
+        font-size: 72px;
+    }
 }
 
 h1 {
@@ -332,7 +357,6 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12rem;
     font-weight: bold;
     color: #00238f;
     text-transform: uppercase;
@@ -384,14 +408,10 @@ a:hover {
 
 p {
     font-family: 'Roboto Mono', monospace;
-    font-size: 24px;
     color: #091748;
 }
 
 .social-m {
-    height: 94px;
-    width: 94px;
-    font-size: 72px;
     display: flex;
 }
 
