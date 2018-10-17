@@ -386,7 +386,7 @@ footer {
     top: 0;
     left: 0;
     border: 24px solid #2c64ff;
-    width: 100vw;
+    width: calc (100vw - 7px);
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -410,7 +410,7 @@ footer {
 
     .ticket {
         border: solid 2px #8eacff;
-        margin-top: 6%;
+        margin-top: 4vh;
         margin-bottom: 12%;
         padding: 40px;
         box-shadow: 6px 6px 0 0 #2C64FF;
@@ -427,7 +427,7 @@ h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 2em;
     text-align: center;
-    margin-top: 6%;
+    margin-top: 8vh;
 }
 
 h2 {
